@@ -1,0 +1,27 @@
+{
+  "name": "basic-restify",
+  "version": "1.0.0",
+  "description": "belajar restify server",
+  "main": "www.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/www.js"
+  },
+  "keywords": [
+    "restify",
+    "server",
+    "nodeJS"
+  ],
+  "author": "Mr.A",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "module-alias": "^2.2.3",
+    "restify": "^11.1.0"
+  },
+  "_moduleAliases": {
+    "@core": "./src/core",
+    "@modules": "./src/modules",
+    "@users": "./src/modules/users/infra/routes"
+  }
+}
